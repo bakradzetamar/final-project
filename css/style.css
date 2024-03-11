@@ -24,7 +24,8 @@
 nav {
     padding: 1rem;
     display: flex;
-    background-color: white;
+    background-color:rgb(18, 18, 18); 
+
     
 }
 .ham-menu {
@@ -80,7 +81,7 @@ li{color: azure;}
     margin-left: 50px;
 }
 .container {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid goldenrod;
     margin-bottom: 30px;
     position: relative;
     padding: 20px;
@@ -106,16 +107,32 @@ li{color: azure;}
     transition: 0.5s;
 }
 .container.active .acordion-text {
-    height: 50px;
+    height: 100%;
 }
 .container.active .accordion-title::after {
     display: inline-block;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     font: var(--fa-font-solid);
-    content: '\f0d8';
-/* position: absolute;
-top: 50%;
-right: 30px;
-transform: translateY(-50%); */
+    content: '\f0d8';}
+
+
+  .teeth{
+    color: goldenrod;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform: translate(-50%,-50%);
+    transition: 0.3s ease;
 }
+.icon-h2 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.one:hover .dropbtn {background-color: #3e8e41;}
+   
