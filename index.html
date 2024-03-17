@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/firstuni.css"> -->
+    <link rel="stylesheet" href="css/login.css">
     <title>final project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 <body>
@@ -20,41 +20,44 @@
         <div class="teeth-icon">
         <i class="fa-solid fa-tooth teeth"></i>
         <h2 class="icon-h2">DENTAL MARKET</h2>
+        <a href="index.html"></a>
     </div>
     
        
      
-        <div class="off-screen-menu">
+    <div class="off-screen-menu">
           
-            <div class="container home"> 
+        <div class="container home"> 
+            <ul>
+                <li > 
+               
+                     <a href="index.html">home</a></li></ul>
+         </div>
+         <div class="container"> 
+            <ul>
+                <li > 
+               
+                     <a href="#">about us</a></li></ul>
+         </div>
+      
+       
+
+            <div class="container"> 
                 <ul>
-                    <li > 
-                   
-                         <a href="index.html">home</a></li></ul>
-             </div>
-             <div class="container"> 
-                <ul>
-                    <li > 
-                   
-                         <a href="#">about us</a></li></ul>
-             </div>
-          
-           
-    
-                <div class="container"> 
+                    <li class="accordion-title">products </li>
+                    <li class="acordion-text">
+                         <a href="dentalunit.html">Dental Unit</a></li>
+                    
+            </div>
+                <div class="container home"> 
                     <ul>
-                        <li class="accordion-title">products </li>
-                        <li class="acordion-text">
-                             <a href="dentalunit.html">Dental Unit</a></li>
-                        
-                    </div>
-                    <div class="container home"> 
-                        <ul>
-                            <li > 
-                           
-                                 <a href="index.html">contact us</a></li></ul>
-                     </div>
-        </div>
+                        <li > 
+                       
+                             <a href="index.html">contact us</a></li></ul>
+                 </div>
+    </div>
+    
+        
         
            <nav>
             <div class="ham-menu  ">
@@ -69,13 +72,95 @@
 
    
 <!-- second part -->
-   <section class="secondpart-img">
+   <!-- <section class="secondpart-img">
    <div class="section-p">
    <p class="dentl-chairtext1" > Higher class-leading configuration</p>
    <p class="dentl-chairtext2" >High quality materials to enhance quality</p>
    <p class="dentl-chairtext3" >Double water filtration, improve water quality</p>
 </div>
-   </section>
+   </section> -->
+
+
+   <div class="slid">
+    <div class="list">
+        <div class="item active">
+            <img src="images/3.jpg" alt="">
+            <div class="content">
+                <p>dental unit</p>
+                <h2>AL-398HC</h2>
+                <p>Chair positioning control: The patient chair can be controlled for raising, lowering, backrest raising, and backrest recline. </p>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/6.jpg" alt="">
+            <div class="content">
+                <p>dental unit</p>
+                <h2>AL-398AA</h2>
+                <p> The versatile design ensures the dental unit meets more dentist and patient requirements.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/13.jpg" alt="">
+            <div class="content">
+                <p>dental unit</p>
+                <h2>AL-388SC</h2>
+                <p>This flexible dental unit is equipped with a rotatable spittoon, independent water supply device, multi-purpose tray and tissue box, and integrated strong and weak suction filters.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/11.jpg" alt="">
+            <div class="content">
+                <p>dental unit</p>
+                <h2>K-3</h2>
+                <p>A revolutionary Osstem Implant Dental Unit Chair K3 was created as a result of persistent research on each component such as main frame, doctor’s table, unit, and light</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/14.jpg" alt="">
+            <div class="content">
+                <p>dental unit</p>
+                <h2>AL-398HG</h2>
+                <p>The unit box is rotatable within 45° for more operating space, making it easy for the dentist and dental technician to carry out 4-handed dental work.</p>
+            </div>
+        </div>
+
+      <div class="arrow1">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+       
+
+      <div class="thumbnail">
+        <div class="items active">
+            <img src="images/3.jpg">
+        <div class="content">AL-398HC</div>
+        </div>
+        <div class="items ">
+            <img src="images/6.jpg">
+            <div class="content">AL-398AA</div>
+        </div>
+        <div class="items">
+            <img src="images/13.jpg">
+            <div class="content">AL-388SC</div>
+        </div>
+        <div class="items">
+            <img src="images/11.jpg">
+            <div class="content">K-3</div>
+        </div>
+        <div class="items">
+            <img src="images/14.jpg">
+            <div class="content">AL-398HG</div>
+        </div>
+      </div>
+
+    </div>
+</div>
+      
 
 
 <section class="fx" >
@@ -91,6 +176,82 @@
 </section>
 <!-- second part end -->
 
+<!-- log in -->
+<div class="navigation">
+    <a href="#home" class="btnLogin-popup">
+        <i class="fa-solid fa-user"></i>
+    </a>
+</div>
+
+
+<div class="wrapper" id="home">
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+    <div class="form-box login">
+        <h2>login</h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label >Email</label>
+            </div>
+        
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox" checked="checked">remember me</label>
+                <a href="#">forget password?</a>
+               
+            </div>
+            <button type="submit" class="btn2">Login</button>
+            <div class="login-register">
+                <p>Don't have an account?<a href="#"
+                     class="register-link">register</a></p>
+            </div>
+        </form>
+    </div>    
+
+    <div class="form-box register">
+        <h2>registration</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label >User name</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label >Email</label>
+            </div>
+        
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox" checked="checked">agree to the terms & contitions</label>
+                
+               
+            </div>
+            <button type="submit" class="btn">register</button>
+            <div class="login-register">
+                <p>Already have an account?<a href="#"
+                     class="login-link">Login</a></p>
+            </div>
+        </form>
+    </div>    
+</div>
+
+
 
 
   
@@ -99,5 +260,8 @@
 
     
   <script src="script.js"></script>
+  <script src="ama30.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

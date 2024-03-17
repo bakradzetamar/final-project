@@ -1,7 +1,7 @@
 // slider
 
 let slider_img = document.querySelector('.slider-img');
-let images =  ['j.jpg', '', 'c.jpg'];
+let images =  ['a.jpg', 'b.jpg', 'c.jpg'];
 let i = 0;
 
 function prev() {
