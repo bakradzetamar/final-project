@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 750px) {
+   
+    .header {
+      
+        font-size: 16px;
+    }
+        .thumbnail {
+            justify-content: start;
+        }
+        
+        .slid.list .item .content{
+            font-size: 60px;
+        }
+        .arrow1{
+            top: 10%;
+        }
+   
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .header {
+       
+        font-size: 14px;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 320px) {
+   
+    .header {
+        
+        font-size: 12px;
+    }
+   
+}
